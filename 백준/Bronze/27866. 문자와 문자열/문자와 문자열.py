@@ -1,3 +1,2 @@
-String = input()
-num = int(input())
-print(String[num - 1])
+word, index = input(), int(input())
+print(word[index - 1])
