@@ -1,7 +1,7 @@
 import sys
 freq = {}
 arr = []
-n = int(input())
+n = int(sys.stdin.readline())
 for i in range(n):
     arr.append(int(sys.stdin.readline()))
 arr.sort()
