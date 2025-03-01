@@ -24,7 +24,7 @@ def stack_sequence(n, sequence):
     else:
         print("NO")
 
-n = int(sys.stdin.readline().strip())  # 숫자 개수
-sequence = [int(sys.stdin.readline().strip()) for _ in range(n)]  # 목표 수열
+n = int(sys.stdin.readline().strip())
+sequence = [int(sys.stdin.readline().strip()) for _ in range(n)]
 
 stack_sequence(n, sequence)
